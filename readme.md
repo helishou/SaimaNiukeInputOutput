@@ -36,6 +36,7 @@
 ### sample.js
 
 ```
+const {gets,read_line,readline,read_lines,print,readInt}=require('../index')
 let arr = read_line().split(" ");
 let n = parseInt(arr[0]);
 let m = parseInt(arr[1]);
