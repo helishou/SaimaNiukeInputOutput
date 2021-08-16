@@ -1,13 +1,13 @@
 /*
  * @Author       : helishou
  * @Date         : 2021-08-16 00:02:50
- * @LastEditTime : 2021-08-16 13:18:46
+ * @LastEditTime : 2021-08-16 13:25:06
  * @LastEditors  : helishou
  * @Description  : 
- * @FilePath     : \print\sample.js
+ * @FilePath     : \print\SaimaNiukeInputOutput\sample\sample.js
  * 你用你的指尖,阻止我说再见,在bug完全失去之前
  */
-const {gets,read_line,readline,read_lines,print,readInt}=require('./index')
+const {gets,read_line,readline,read_lines,print,readInt}=require('../index')
 
 let arr = read_line().split(" ");
 let n = parseInt(arr[0]);
