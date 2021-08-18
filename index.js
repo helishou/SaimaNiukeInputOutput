@@ -1,10 +1,10 @@
 /*
  * @Author       : helishou
  * @Date         : 2021-08-16 00:30:05
- * @LastEditTime : 2021-08-16 13:15:31
+ * @LastEditTime : 2021-08-18 10:39:35
  * @LastEditors  : helishou
  * @Description  :
- * @FilePath     : \print\index.js
+ * @FilePath     : \print\SaimaNiukeInputOutput\index.js
  * 你用你的指尖,阻止我说再见,在bug完全失去之前
  */
 
@@ -22,7 +22,7 @@ data = data
 let i = 0;
 
 /**
- * @description : 读取一行
+ * @description : 将读取至多1024个字符，当还未达到1024个时如果遇到回车或结束符，提前结束。读取多行最简单的办法是while((line = read_line()) != '')。
  * @param        {*}
  * @return       {String}
  */
@@ -114,7 +114,6 @@ function print(...msg) {
 function printsth(...msg) {
   process.stdout.write(...msg);
 }
-
 
 module.exports = {
   readline,
